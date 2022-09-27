@@ -79,7 +79,7 @@ void SortMassiv(int[] massiv)
         int temp;
         for(int j = i + 1; j < massiv.Length; j++)
         {
-            if(massiv[i] > massiv[j])
+            if(Math.Abs(massiv[i]) > Math.Abs(massiv[j]))
             {
                 temp = massiv[i];
                 massiv[i] = massiv[j];
@@ -94,5 +94,5 @@ void SortMassiv(int[] massiv)
 
 // HW1();
 // HW2();
-// HW3();
+HW3();
 
